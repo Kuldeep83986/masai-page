@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: "Roboto";
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .top {
+            display: flex;
+            justify-content: center;
+            background-color: pink;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .top>p {
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 35px;
+            background-color: red;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            /* background-color: yellow; */
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid rgb(232, 226, 226);
+        }
+
+        .logo>img {
+            width: 100px;
+            height: 40px;
+
+        }
+
+        .menu1 {
+            display: flex;
+            gap: 35px;
+
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+
+        .menu2 {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .btn1 {
+            width: 120px;
+            height: 40px;
+            border: none;
+            color: blue;
+            background-color: rgb(221, 243, 248);
+            border-radius: 10px;
+            padding: 5px;
+            cursor: pointer;
+            font-weight: bold;
+
+        }
+
+        .btn2 {
+            width: 90px;
+            height: 40px;
+            padding: 5px;
+            cursor: pointer;
+            border: 1px solid red;
+            border-radius: 10px;
+            color: red;
+            font-weight: bold;
+            background-color: white;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        /* .box1{
+            border: 1px solid black;
+        } */
+        .box1 > h1{
+            font-size: 50px;
+            font-weight: bold;
+            color: rgb(105, 105, 240);
+            margin: 0px;
+        }
+
+        .box1 > p{
+            font-size: 25px;
+            font-weight: bold;            
+        }
+
+        .box2 {
+            border: 1px solid rgb(229, 224, 224);
+            margin: 50px;
+            width: 700px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .footer{
+            width: 100%;
+            background-color: rgb(41, 41, 214);
+            padding: 10px;
+        }
+
+        .footer > h1{
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        .footer > p{
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Q.8 Build success stories -->
+
+
+    <!-- top section -->
+    <div class="top">
+        <p>Applications for our 6th November Batches are now open!</p>
+        <button class="btn">Apply Now</button>
+    </div>
+
+
+
+    <!-- Navbar section -->
+    <div class="navbar">
+
+        <div>
+            <div class="logo">
+                <img src="https://cdn.masaischool.com/masai-website/Masai_Logo_dark_web_b21aab8c62.webp" alt="">
+            </div>
+        </div>
+
+        <div class="menu1">
+            <a href="">COURSES</a>
+            <a href="">FEES</a>
+            <a href="">EVENT</a>
+            <a href="">LEARN</a>
+            <a href="">SUCCESS STORIES</a>
+            <a href="">HIRE FROM US</a>
+        </div>
+
+        <div class="menu2">
+            <button class="btn1">REFER & EARN</button>
+            <button class="btn2">SIGN UP</button>
+        </div>
+
+    </div>
+
+
+    <!-- Main page -->
+    <div class="main">
+        <div class="box1">
+            <h1>Proof that dreams do</h1>
+            <h1>come true</h1>
+            <p>A testament to what's possible</p>
+            <button class="btn">Apply Now</button>
+        </div>
+        <div class="box2">
+            <video controls>
+                <source
+                    src="https://cdn.masaischool.com/masai-website/cab_driver_became_software_engineer_meet_ashish_raj_from_munger_bihar_1_1080p_808ebc1236.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+     <div class="footer">
+        <h1>How is Masai Creating an Impact?</h1>
+        <p>4000 Students placed across 1000+ companies</p>
+     </div>
+
+
+
+
+
+</body>
+
+</html>
